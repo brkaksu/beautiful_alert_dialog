@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 class CustomAlertBox {
   /// Bu şekilde döküman yorumları oluşturabilirsiniz kullanan kişiler için faydalı olur.
   static Future showCustomAlertBox({
+    ///context baglam icin gereklidir.
     required BuildContext context,
+    ///will display widget bir widget alir ve ekranda butonun ustunde gorunecek olan widgetdir.
     required Widget willDisplayWidget,
   }) {
     assert(context != null, "context is null!!");
