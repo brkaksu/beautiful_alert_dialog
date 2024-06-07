@@ -1,7 +1,7 @@
 name: beatiful_alert_dialog
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/brkaksu/beautiful_alert_dialog
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
